@@ -1,0 +1,28 @@
+[project]
+name = "rag-with-langchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Thusithakit", email = "thusithakit3@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "faiss-cpu>=1.15.0",
+    "ipykernel>=7.3.0",
+    "langchain>=1.3.15",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.5.4",
+    "langchain-text-splitters>=1.1.2",
+    "pymupdf>=1.28.2",
+    "pypdf>=6.15.0",
+    "sentence-transformers>=5.7.0",
+]
+
+[project.scripts]
+rag-with-langchain = "rag_with_langchain:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
