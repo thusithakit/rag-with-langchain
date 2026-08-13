@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+.env
+
+data/
+data/vector_store/chroma.sqlite3
+data/vector_store/8e2550d3-5231-42fb-a968-6efaa2c41c14/data_level0.bin
